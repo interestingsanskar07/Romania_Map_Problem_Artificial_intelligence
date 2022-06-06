@@ -1,7 +1,6 @@
 # Romania_Map_Problem_Artificial_intelligence
 
 
-                                                                              ##sanskar07
 ## Depth First Search:
 Approach: The depth-first search technique is used to traverse or explore data structures such as trees and graphs. Before backtracking, the algorithm starts at the root node and explores as far as possible along each node. So the basic idea is to start at the root or any arbitrary node and mark it, then advance to the next unmarked node and repeat until there are no more unmarked nodes. Then go back and check for any more unmarked nodes to cross. Finally, print the path's nodes.
 Algorithm: Create a recursive function that accepts the node's index and a visited array as input. Make the current node a visited node and print it. Call the recursive function using the index of the adjacent node after traversing all nearby and unmarked nodes.
@@ -36,7 +35,6 @@ Algorithm : 1.  Initialize the open list
    
     d) for each successor
         i) if successor is the goal, stop search
-        
         ii) else, compute both g and h for successor
           successor.g = q.g + distance between 
                               successor and q
@@ -45,18 +43,18 @@ Algorithm : 1.  Initialize the open list
           ways, we will discuss three heuristics- 
           Manhattan, Diagonal and Euclidean 
           Heuristics)
-          
           successor.f = successor.g + successor.h
-
         iii) if a node with the same position as 
             successor is in the OPEN list which has a 
            lower f than successor, skip this successor
-
         iV) if a node with the same position as 
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
      end (for loop)
-  
     e) push q on the closed list
     end (while loop)
+    
+    
+    
+#### Sanskar zanwar maheshwari
